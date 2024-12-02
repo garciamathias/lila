@@ -77,29 +77,3 @@ button:hover {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-
-.similar-listings {
-    margin-top: 2rem;
-    padding: 1rem;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.similar-listing-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem;
-    border-bottom: 1px solid #eee;
-}
-
-.similar-listing-item:last-child {
-    border-bottom: none;
-}
-
-.similar-listing-score {
-    padding: 0.3rem 0.6rem;
-    border-radius: 3px;
-    font-weight: bold;
-}
